@@ -3,3 +3,10 @@ npm install --save @angular/platform-server @nguniversal/module-map-ngfactory-lo
 ng add @nguniversal/express-engine --clientProject angular-ssr
 
 npm run build:ssr && npm run serve:ssr
+
+vamos a migrar angular 9 con ssr
+
+https://update.angular.io/#7.1:9.0l3
+
+1 - ng update @angular/cli@8 @angular/core@8
+2 - ng update @angular/core @angular/cli
