@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
     private titleService: Title
   ) { }
 
-  title: string = 'Hello, I am Farid Karami';
+  title: string = 'Hello, I am Fernando Miras';
 
   ngOnInit(): void {
     this.titleService.setTitle(this.title);
